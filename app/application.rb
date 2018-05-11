@@ -9,7 +9,7 @@ class Application
 
     if num_1<=num_2
       resp.write "Good Morning!"
-    elsif num_2=>num_1
+    elsif num_2>num_1
       resp.write "Good Afternoon!"
     end
 
